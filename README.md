@@ -8,7 +8,7 @@ Docker Desktop: https://www.docker.com/get-started/
 ```
 git clone git@github.com:bjwirgau/docker-laravel-project.git
 docker compose run --rm composer create-project --prefer-dist laravel/laravel .
-docker composer up -d server php mysql
+docker compose up -d server php mysql
 ```
 
 Open your browser on http://localhost:8000 to verify laravel is running.
